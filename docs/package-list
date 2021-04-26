@@ -1,7 +1,0 @@
-$dokka.format:html-v1
-$dokka.linkExtension:html
-
-ch.datatrans.payment.api
-ch.datatrans.payment.exception
-ch.datatrans.payment.paymentmethods
-

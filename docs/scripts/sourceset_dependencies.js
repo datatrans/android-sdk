@@ -1,1 +1,1 @@
-sourceset_dependencies = '{":DatatransPaymentLibrary:dokkaHtml/debug": [], ":DatatransPaymentLibrary:dokkaHtml/main": [], ":DatatransPaymentLibrary:dokkaHtml/release": []}'
+sourceset_dependencies='{":lib:dokkaHtml/androidTestRelease":[],":lib:dokkaHtml/debug":[],":lib:dokkaHtml/main":[],":lib:dokkaHtml/release":[]}'

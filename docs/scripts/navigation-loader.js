@@ -1,4 +1,4 @@
-navigationPageText = fetch(pathToRoot + "android-sdk/navigation.html").then(response => response.text())
+navigationPageText = fetch(pathToRoot + "navigation.html").then(response => response.text())
 
 displayNavigationFromPage = () => {
     navigationPageText.then(data => {
