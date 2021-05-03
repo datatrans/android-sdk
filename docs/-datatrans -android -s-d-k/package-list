@@ -1,5 +1,24 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
+$dokka.location:ch.datatrans.payment.api.tokenization////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/index.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequest///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request/index.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequest/TokenizationRequest/#kotlin.String#ch.datatrans.payment.paymentmethods.Card/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request/-tokenization-request.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequest/TokenizationRequest/#kotlin.String#kotlin.collections.List[ch.datatrans.payment.paymentmethods.PaymentMethodType]/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request/-tokenization-request.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequest/listener/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request/listener.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequest/options/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request/options.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestListener///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-listener/index.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestListener/onTokenizationRequestCancel/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-listener/on-tokenization-request-cancel.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestListener/onTokenizationRequestError/#ch.datatrans.payment.exception.TokenizationRequestException/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-listener/on-tokenization-request-error.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestListener/onTokenizationSuccess/#kotlin.String/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-listener/on-tokenization-success.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestOptions///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-options/index.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestOptions/TokenizationRequestOptions/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-options/-tokenization-request-options.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestOptions/isTesting/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-options/is-testing.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestOptions/language/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-options/language.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestOptions/suppressCriticalErrorDialog/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-options/suppress-critical-error-dialog.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestOptions/useCertificatePinning/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-options/use-certificate-pinning.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestRegistry///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-registry/index.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestRegistry/startTokenizationRequest/#android.app.Activity#ch.datatrans.payment.api.tokenization.TokenizationRequest/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-registry/start-tokenization-request.html
+$dokka.location:ch.datatrans.payment.api.tokenization/TokenizationRequestRegistry/tokenizationRequest/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-tokenization-request-registry/tokenization-request.html
 $dokka.location:ch.datatrans.payment.api////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/index.html
 $dokka.location:ch.datatrans.payment.api/Transaction///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction/index.html
 $dokka.location:ch.datatrans.payment.api/Transaction/Transaction/#kotlin.String#ch.datatrans.payment.paymentmethods.Card/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction/-transaction.html
@@ -17,7 +36,7 @@ $dokka.location:ch.datatrans.payment.api/TransactionOptions/appCallbackScheme/#/
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/googlePayConfig/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/google-pay-config.html
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/isTesting/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/is-testing.html
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/samsungPayConfig/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/samsung-pay-config.html
-$dokka.location:ch.datatrans.payment.api/TransactionOptions/suppressTransactionErrorDialog/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/suppress-transaction-error-dialog.html
+$dokka.location:ch.datatrans.payment.api/TransactionOptions/suppressCriticalErrorDialog/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/suppress-critical-error-dialog.html
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/useCertificatePinning/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/use-certificate-pinning.html
 $dokka.location:ch.datatrans.payment.api/TransactionRegistry///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-registry/index.html
 $dokka.location:ch.datatrans.payment.api/TransactionRegistry/startTransaction/#android.app.Activity#ch.datatrans.payment.api.Transaction/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-registry/start-transaction.html
@@ -34,6 +53,7 @@ $dokka.location:ch.datatrans.payment.exception/BackendException/errorCode/#/Poin
 $dokka.location:ch.datatrans.payment.exception/TWINTNotInstalledException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-t-w-i-n-t-not-installed-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/TWINTNotInstalledException/TWINTNotInstalledException/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-t-w-i-n-t-not-installed-exception/-t-w-i-n-t-not-installed-exception.html
 $dokka.location:ch.datatrans.payment.exception/TechnicalException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-technical-exception/index.html
+$dokka.location:ch.datatrans.payment.exception/TokenizationRequestException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-tokenization-request-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/TransactionException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/TransactionException/paymentMethodType/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/payment-method-type.html
 $dokka.location:ch.datatrans.payment.exception/TransactionException/transactionId/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/transaction-id.html
@@ -218,6 +238,7 @@ $dokka.location:ch.datatrans.payment/ExternalProcessRelayActivity///PointingToDe
 $dokka.location:ch.datatrans.payment/ExternalProcessRelayActivity/ExternalProcessRelayActivity/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment/-external-process-relay-activity/-external-process-relay-activity.html
 ch.datatrans.payment
 ch.datatrans.payment.api
+ch.datatrans.payment.api.tokenization
 ch.datatrans.payment.exception
 ch.datatrans.payment.paymentmethods
 
