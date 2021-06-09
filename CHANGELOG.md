@@ -1,3 +1,13 @@
+## [1.3.1] - 2021-06-09
+
+### Fixed
+
+- Fix card flow when using authenticationOnly=true in server-to-server init call
+- Improve validation for card expiration dates
+- Do not clear content of card expiration date and CVV field when clicking on them while editing
+- Fix corners of sheet on tablets
+- Fix height difference when entering a card with invalid prefix
+
 ## [1.3.0] - 2021-05-21
 
 ### Added
