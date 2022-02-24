@@ -51,13 +51,21 @@ $dokka.location:ch.datatrans.payment.exception/AuthenticationException///Pointin
 $dokka.location:ch.datatrans.payment.exception/AuthorizationException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-authorization-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/BackendException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/BackendException/errorCode/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/error-code.html
+$dokka.location:ch.datatrans.payment.exception/BackendException/info/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/info.html
 $dokka.location:ch.datatrans.payment.exception/PCIPTokenizationRequestException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-p-c-i-p-tokenization-request-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/TWINTNotInstalledException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-t-w-i-n-t-not-installed-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/TWINTNotInstalledException/TWINTNotInstalledException/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-t-w-i-n-t-not-installed-exception/-t-w-i-n-t-not-installed-exception.html
 $dokka.location:ch.datatrans.payment.exception/TechnicalException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-technical-exception/index.html
+$dokka.location:ch.datatrans.payment.exception/TransactionException.Companion///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/-companion/index.html
 $dokka.location:ch.datatrans.payment.exception/TransactionException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/TransactionException/paymentMethodType/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/payment-method-type.html
 $dokka.location:ch.datatrans.payment.exception/TransactionException/transactionId/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/transaction-id.html
+$dokka.location:ch.datatrans.payment.paymentmethods.paypal////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods.paypal/index.html
+$dokka.location:ch.datatrans.payment.paymentmethods.paypal/PayPalRiskComponentManager.Companion///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods.paypal/-pay-pal-risk-component-manager/-companion/index.html
+$dokka.location:ch.datatrans.payment.paymentmethods.paypal/PayPalRiskComponentManager.Companion/collectAndSubmit/#android.content.Context#kotlin.String?/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods.paypal/-pay-pal-risk-component-manager/-companion/collect-and-submit.html
+$dokka.location:ch.datatrans.payment.paymentmethods.paypal/PayPalRiskComponentManager.Companion/collectAndSubmit/#android.content.Context/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods.paypal/-pay-pal-risk-component-manager/-companion/collect-and-submit.html
+$dokka.location:ch.datatrans.payment.paymentmethods.paypal/PayPalRiskComponentManager///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods.paypal/-pay-pal-risk-component-manager/index.html
+$dokka.location:ch.datatrans.payment.paymentmethods.paypal/PayPalRiskComponentManager/PayPalRiskComponentManager/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods.paypal/-pay-pal-risk-component-manager/-pay-pal-risk-component-manager.html
 $dokka.location:ch.datatrans.payment.paymentmethods////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/index.html
 $dokka.location:ch.datatrans.payment.paymentmethods/Card///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-card/index.html
 $dokka.location:ch.datatrans.payment.paymentmethods/Card/Card/#ch.datatrans.payment.paymentmethods.PaymentMethodType#kotlin.String#ch.datatrans.payment.paymentmethods.CardExpiryDate#kotlin.String?#kotlin.String?/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-card/-card.html
@@ -236,4 +244,5 @@ ch.datatrans.payment.api
 ch.datatrans.payment.api.tokenization
 ch.datatrans.payment.exception
 ch.datatrans.payment.paymentmethods
+ch.datatrans.payment.paymentmethods.paypal
 
