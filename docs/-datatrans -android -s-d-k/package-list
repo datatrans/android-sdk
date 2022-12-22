@@ -65,9 +65,11 @@ $dokka.location:ch.datatrans.payment.api/TransactionSuccess/transactionId/#/Poin
 $dokka.location:ch.datatrans.payment.exception////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/index.html
 $dokka.location:ch.datatrans.payment.exception/AuthenticationException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-authentication-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/AuthorizationException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-authorization-exception/index.html
+$dokka.location:ch.datatrans.payment.exception/BackendException.Companion///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/-companion/index.html
 $dokka.location:ch.datatrans.payment.exception/BackendException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/BackendException/errorCode/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/error-code.html
 $dokka.location:ch.datatrans.payment.exception/BackendException/info/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/info.html
+$dokka.location:ch.datatrans.payment.exception/BackendException/name/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/name.html
 $dokka.location:ch.datatrans.payment.exception/ModuleMissingException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-module-missing-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/ModuleMissingException/ModuleMissingException/#ch.datatrans.payment.paymentmethods.PaymentMethodType/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-module-missing-exception/-module-missing-exception.html
 $dokka.location:ch.datatrans.payment.exception/ModuleMissingException/paymentMethodType/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-module-missing-exception/payment-method-type.html
