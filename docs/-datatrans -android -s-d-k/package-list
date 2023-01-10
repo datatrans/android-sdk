@@ -67,7 +67,6 @@ $dokka.location:ch.datatrans.payment.exception/AuthenticationException///Pointin
 $dokka.location:ch.datatrans.payment.exception/AuthorizationException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-authorization-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/BackendException.Companion///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/-companion/index.html
 $dokka.location:ch.datatrans.payment.exception/BackendException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/index.html
-$dokka.location:ch.datatrans.payment.exception/BackendException/backendRules/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/backend-rules.html
 $dokka.location:ch.datatrans.payment.exception/BackendException/errorCode/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/error-code.html
 $dokka.location:ch.datatrans.payment.exception/BackendException/info/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/info.html
 $dokka.location:ch.datatrans.payment.exception/BackendException/name/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/name.html
@@ -82,13 +81,6 @@ $dokka.location:ch.datatrans.payment.exception/TransactionException.Companion///
 $dokka.location:ch.datatrans.payment.exception/TransactionException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/TransactionException/paymentMethodType/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/payment-method-type.html
 $dokka.location:ch.datatrans.payment.exception/TransactionException/transactionId/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/transaction-id.html
-$dokka.location:ch.datatrans.payment.models////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.models/index.html
-$dokka.location:ch.datatrans.payment.models/BackendErrorRule///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.models/-backend-error-rule/index.html
-$dokka.location:ch.datatrans.payment.models/BackendErrorRule/BackendErrorRule/#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.models/-backend-error-rule/-backend-error-rule.html
-$dokka.location:ch.datatrans.payment.models/BackendErrorRule/code/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.models/-backend-error-rule/code.html
-$dokka.location:ch.datatrans.payment.models/BackendErrorRule/detail/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.models/-backend-error-rule/detail.html
-$dokka.location:ch.datatrans.payment.models/BackendErrorRule/message/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.models/-backend-error-rule/message.html
-$dokka.location:ch.datatrans.payment.models/BackendErrorRule/name/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.models/-backend-error-rule/name.html
 $dokka.location:ch.datatrans.payment.paymentmethods.boncard////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods.boncard/index.html
 $dokka.location:ch.datatrans.payment.paymentmethods.boncard/BoncardConfig///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods.boncard/-boncard-config/index.html
 $dokka.location:ch.datatrans.payment.paymentmethods.boncard/BoncardConfig/BoncardConfig/#kotlin.collections.List[ch.datatrans.payment.paymentmethods.boncard.BoncardType]/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods.boncard/-boncard-config/-boncard-config.html
@@ -324,7 +316,6 @@ ch.datatrans.payment
 ch.datatrans.payment.api
 ch.datatrans.payment.api.tokenization
 ch.datatrans.payment.exception
-ch.datatrans.payment.models
 ch.datatrans.payment.paymentmethods
 ch.datatrans.payment.paymentmethods.boncard
 ch.datatrans.payment.paymentmethods.paypal
