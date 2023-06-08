@@ -326,6 +326,10 @@ $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.SUPERCARD/
 $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.SUPERCARD/identifier/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-s-u-p-e-r-c-a-r-d/identifier.html
 $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.SUPERCARD/name/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-s-u-p-e-r-c-a-r-d/name.html
 $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.SUPERCARD/ordinal/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-s-u-p-e-r-c-a-r-d/ordinal.html
+$dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.SWISH///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-s-w-i-s-h/index.html
+$dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.SWISH/identifier/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-s-w-i-s-h/identifier.html
+$dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.SWISH/name/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-s-w-i-s-h/name.html
+$dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.SWISH/ordinal/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-s-w-i-s-h/ordinal.html
 $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.SWISS_BILLING///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-s-w-i-s-s_-b-i-l-l-i-n-g/index.html
 $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.SWISS_BILLING/identifier/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-s-w-i-s-s_-b-i-l-l-i-n-g/identifier.html
 $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.SWISS_BILLING/name/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-s-w-i-s-s_-b-i-l-l-i-n-g/name.html
@@ -342,6 +346,10 @@ $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.UATP///Poi
 $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.UATP/identifier/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-u-a-t-p/identifier.html
 $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.UATP/name/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-u-a-t-p/name.html
 $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.UATP/ordinal/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-u-a-t-p/ordinal.html
+$dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.VIPPS///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-v-i-p-p-s/index.html
+$dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.VIPPS/identifier/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-v-i-p-p-s/identifier.html
+$dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.VIPPS/name/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-v-i-p-p-s/name.html
+$dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.VIPPS/ordinal/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-v-i-p-p-s/ordinal.html
 $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.VISA///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-v-i-s-a/index.html
 $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.VISA/identifier/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-v-i-s-a/identifier.html
 $dokka.location:ch.datatrans.payment.paymentmethods/PaymentMethodType.VISA/name/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods/-payment-method-type/-v-i-s-a/name.html
@@ -420,6 +428,10 @@ $dokka.location:ch.datatrans.payment.paymentmethods/ShippingAddressParameters///
 $dokka.location:ch.datatrans.payment////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment/index.html
 $dokka.location:ch.datatrans.payment/ExternalProcessRelayActivity///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment/-external-process-relay-activity/index.html
 $dokka.location:ch.datatrans.payment/ExternalProcessRelayActivity/ExternalProcessRelayActivity/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment/-external-process-relay-activity/-external-process-relay-activity.html
+$dokka.location:ch.datatrans.payment/VippsRelayActivity.Companion///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment/-vipps-relay-activity/-companion/index.html
+$dokka.location:ch.datatrans.payment/VippsRelayActivity.Companion/VIPPS_EXTRA_REDIRECT_URL/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment/-vipps-relay-activity/-companion/-v-i-p-p-s_-e-x-t-r-a_-r-e-d-i-r-e-c-t_-u-r-l.html
+$dokka.location:ch.datatrans.payment/VippsRelayActivity///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment/-vipps-relay-activity/index.html
+$dokka.location:ch.datatrans.payment/VippsRelayActivity/VippsRelayActivity/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment/-vipps-relay-activity/-vipps-relay-activity.html
 ch.datatrans.payment
 ch.datatrans.payment.api
 ch.datatrans.payment.api.tokenization
