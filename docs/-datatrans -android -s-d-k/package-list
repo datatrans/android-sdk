@@ -35,6 +35,16 @@ $dokka.location:ch.datatrans.payment.api.tokenization/PCIPTokenizationSuccess/ca
 $dokka.location:ch.datatrans.payment.api.tokenization/PCIPTokenizationSuccess/paymentMethodType/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-p-c-i-p-tokenization-success/payment-method-type.html
 $dokka.location:ch.datatrans.payment.api.tokenization/PCIPTokenizationSuccess/tokenizationId/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api.tokenization/-p-c-i-p-tokenization-success/tokenization-id.html
 $dokka.location:ch.datatrans.payment.api////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/index.html
+$dokka.location:ch.datatrans.payment.api/DCCShowMode.ALWAYS///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-d-c-c-show-mode/-a-l-w-a-y-s/index.html
+$dokka.location:ch.datatrans.payment.api/DCCShowMode.ALWAYS/name/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-d-c-c-show-mode/-a-l-w-a-y-s/name.html
+$dokka.location:ch.datatrans.payment.api/DCCShowMode.ALWAYS/ordinal/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-d-c-c-show-mode/-a-l-w-a-y-s/ordinal.html
+$dokka.location:ch.datatrans.payment.api/DCCShowMode.NEVER///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-d-c-c-show-mode/-n-e-v-e-r/index.html
+$dokka.location:ch.datatrans.payment.api/DCCShowMode.NEVER/name/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-d-c-c-show-mode/-n-e-v-e-r/name.html
+$dokka.location:ch.datatrans.payment.api/DCCShowMode.NEVER/ordinal/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-d-c-c-show-mode/-n-e-v-e-r/ordinal.html
+$dokka.location:ch.datatrans.payment.api/DCCShowMode.SMART///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-d-c-c-show-mode/-s-m-a-r-t/index.html
+$dokka.location:ch.datatrans.payment.api/DCCShowMode.SMART/name/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-d-c-c-show-mode/-s-m-a-r-t/name.html
+$dokka.location:ch.datatrans.payment.api/DCCShowMode.SMART/ordinal/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-d-c-c-show-mode/-s-m-a-r-t/ordinal.html
+$dokka.location:ch.datatrans.payment.api/DCCShowMode///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-d-c-c-show-mode/index.html
 $dokka.location:ch.datatrans.payment.api/InitialLoader///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-initial-loader/index.html
 $dokka.location:ch.datatrans.payment.api/InitialLoader/dismiss/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-initial-loader/dismiss.html
 $dokka.location:ch.datatrans.payment.api/Transaction///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction/index.html
@@ -58,6 +68,7 @@ $dokka.location:ch.datatrans.payment.api/TransactionOptions/googlePayConfig/#/Po
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/isTesting/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/is-testing.html
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/klarnaConfig/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/klarna-config.html
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/samsungPayConfig/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/samsung-pay-config.html
+$dokka.location:ch.datatrans.payment.api/TransactionOptions/savedCardDCCShowMode/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/saved-card-d-c-c-show-mode.html
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/suppressCriticalErrorDialog/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/suppress-critical-error-dialog.html
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/useCertificatePinning/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/use-certificate-pinning.html
 $dokka.location:ch.datatrans.payment.api/TransactionRegistry///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-registry/index.html
