@@ -87,7 +87,6 @@ $dokka.location:ch.datatrans.payment.bottomsheet/BottomSheetViewModel/BottomShee
 $dokka.location:ch.datatrans.payment.bottomsheet/BottomSheetViewModel/showContent/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.bottomsheet/-bottom-sheet-view-model/show-content.html
 $dokka.location:ch.datatrans.payment.exception////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/index.html
 $dokka.location:ch.datatrans.payment.exception/AppNotInstalledException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-app-not-installed-exception/index.html
-$dokka.location:ch.datatrans.payment.exception/AppNotInstalledException/AppNotInstalledException/#kotlin.String#ch.datatrans.payment.paymentmethods.PaymentMethodType/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-app-not-installed-exception/-app-not-installed-exception.html
 $dokka.location:ch.datatrans.payment.exception/AuthenticationException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-authentication-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/AuthorizationException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-authorization-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/BackendException.Companion///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-backend-exception/-companion/index.html
@@ -104,6 +103,7 @@ $dokka.location:ch.datatrans.payment.exception/ModuleMissingException/paymentMet
 $dokka.location:ch.datatrans.payment.exception/PCIPTokenizationException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-p-c-i-p-tokenization-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/PaymentMethodValidationException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-payment-method-validation-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/PaymentMethodValidationException/paymentMethodType/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-payment-method-validation-exception/payment-method-type.html
+$dokka.location:ch.datatrans.payment.exception/TWINTNotInstalledException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-t-w-i-n-t-not-installed-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/TechnicalException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-technical-exception/index.html
 $dokka.location:ch.datatrans.payment.exception/TransactionException.Companion///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/-companion/index.html
 $dokka.location:ch.datatrans.payment.exception/TransactionException///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/index.html
