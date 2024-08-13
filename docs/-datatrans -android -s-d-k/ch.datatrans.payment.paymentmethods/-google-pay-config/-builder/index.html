@@ -1,212 +1,243 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html class="no-js">
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>Builder</title>
-<link href="../../../../../../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../../";</script><script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../../styles/style.css" rel="Stylesheet"><link href="../../../../styles/logo-styles.css" rel="Stylesheet"><link href="../../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../../scripts/main.js" async="async"></script>  </head>
-  <body>
-    <div id="container">
-      <div id="leftColumn"><a href="../../../../index.html">
-          <div id="logo"></div>
-        </a>
-        <div id="paneSearch"></div>
-        <div id="sideMenu"></div>
-      </div>
-      <div id="main">
-        <div id="leftToggler"><span class="icon-toggler"></span></div>
-<script type="text/javascript" src="../../../../scripts/main.js"></script>        <div class="main-content" id="content" pageIds="Datatrans Android SDK::ch.datatrans.payment.paymentmethods/GooglePayConfig.Builder///PointingToDeclaration//1946847589">
-          <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"><a href="../../../../index.html">Datatrans Android SDK</a>/<a href="../../index.html">ch.datatrans.payment.paymentmethods</a>/<a href="../index.html">GooglePayConfig</a>/<a href="index.html">Builder</a></div>
-            <div class="pull-right d-flex">
-              <div id="searchBar"></div>
+    <link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../../index.html">
+                            Datatrans Android SDK
+                    </a>
             </div>
-          </div>
-          <div class="cover ">
-            <h1 class="cover"><span>Builder</span></h1>
-            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">class <a href="index.html">Builder</a>(supportedNetworks: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a>&lt;<a href="../../-payment-method-type/index.html">PaymentMethodType</a>&gt;, merchantName: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">The builder of GooglePayConfig As the support networks and merchant name are mandatory they are required in the constructor</p></div></div>
-          </div>
-          <div class="tabbedcontent">
-            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Parameters">Parameters</button></div>
-            <div class="tabs-section-body">
-              <h2 class="">Parameters</h2>
-              <div data-togglable="Parameters">
-                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">supportedNetworks</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">The supported card acquirers (e.g. PaymentMethodType.VISA)</p></div></div></div></div></div><div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">merchantName</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">The displayed merchant name</p></div></div></div></div></div></div></div></div></div>
-              </div>
-              <h2 class="tabbedcontent">Constructors</h2>
-              <div class="table" data-togglable="Constructors"><a data-name="2066387750%2FConstructors%2F1946847589" anchor-label="Builder" id="2066387750%2FConstructors%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue TabbedContent">
-                    <div class=""><span class="inline-flex"><a href="-builder.html">Builder</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2066387750%2FConstructors%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">fun <a href="-builder.html">Builder</a>(supportedNetworks: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a>&lt;<a href="../../-payment-method-type/index.html">PaymentMethodType</a>&gt;, merchantName: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief ">The supported card acquirers (e.g.</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Functions</h2>
-              <div class="table" data-togglable="Functions"><a data-name="1507519253%2FFunctions%2F1946847589" anchor-label="allowedAuthenticationMethods" id="1507519253%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="allowed-authentication-methods.html">allowedAuthenticationMethods</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1507519253%2FFunctions%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">fun <a href="allowed-authentication-methods.html">allowedAuthenticationMethods</a>(authenticationMethods: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a>&lt;<a href="../-authentication-method-type/index.html">GooglePayConfig.AuthenticationMethodType</a>&gt;): <a href="index.html">GooglePayConfig.Builder</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":lib:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="Datatrans Android SDK::ch.datatrans.payment.paymentmethods/GooglePayConfig.Builder///PointingToDeclaration//1946847589">
+  <div class="breadcrumbs"><a href="../../../../index.html">Datatrans Android SDK</a><span class="delimiter">/</span><a href="../../index.html">ch.datatrans.payment.paymentmethods</a><span class="delimiter">/</span><a href="../index.html">GooglePayConfig</a><span class="delimiter">/</span><span class="current">Builder</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Builder</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Builder</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">supportedNetworks<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../-payment-method-type/index.html">PaymentMethodType</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">merchantName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div><p class="paragraph">The builder of GooglePayConfig As the support networks and merchant name are mandatory they are required in the constructor</p><h4 class="">Parameters</h4><div class="table"><div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><u><span>supported</span><wbr></wbr><span><span>Networks</span></span></u></div></span></div><div><div class="title"><p class="paragraph">The supported card acquirers (e.g. PaymentMethodType.VISA)</p></div></div></div></div><div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><u><span>merchant</span><wbr></wbr><span><span>Name</span></span></u></div></span></div><div><div class="title"><p class="paragraph">The displayed merchant name</p></div></div></div></div></div></div></div>
   </div>
-<a data-name="1507519253%2FFunctions%2F1946847589" anchor-label="allowedAuthenticationMethods" id="1507519253%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="1507519253%2FFunctions%2F1946847589" anchor-label="allowedAuthenticationMethods" id="1507519253%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Defines the allowed authentication methods (if undefined the default list contains PAN_ONLY and CRYPTOGRAM_3DS)</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1205079138%2FFunctions%2F1946847589" anchor-label="build" id="1205079138%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="build.html">build</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1205079138%2FFunctions%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">fun <a href="build.html">build</a>(): <a href="../index.html">GooglePayConfig</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1205079138%2FFunctions%2F1946847589" anchor-label="build" id="1205079138%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="1205079138%2FFunctions%2F1946847589" anchor-label="build" id="1205079138%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Builds a GooglePayConfig object</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1358760360%2FFunctions%2F1946847589" anchor-label="disableCreditCards" id="1358760360%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="disable-credit-cards.html">disableCreditCards</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1358760360%2FFunctions%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">fun <a href="disable-credit-cards.html">disableCreditCards</a>(): <a href="index.html">GooglePayConfig.Builder</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1358760360%2FFunctions%2F1946847589" anchor-label="disableCreditCards" id="1358760360%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="1358760360%2FFunctions%2F1946847589" anchor-label="disableCreditCards" id="1358760360%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Defines that credit cards are disabled (undefined is enabled)</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-279472748%2FFunctions%2F1946847589" anchor-label="disablePrepaidCards" id="-279472748%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="disable-prepaid-cards.html">disablePrepaidCards</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-279472748%2FFunctions%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">fun <a href="disable-prepaid-cards.html">disablePrepaidCards</a>(): <a href="index.html">GooglePayConfig.Builder</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-279472748%2FFunctions%2F1946847589" anchor-label="disablePrepaidCards" id="-279472748%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="-279472748%2FFunctions%2F1946847589" anchor-label="disablePrepaidCards" id="-279472748%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Defines that prepaid cards are disabled (undefined is enabled)</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="514680979%2FFunctions%2F1946847589" anchor-label="requireExistingPaymentMethod" id="514680979%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="require-existing-payment-method.html">requireExistingPaymentMethod</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="514680979%2FFunctions%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">fun <a href="require-existing-payment-method.html">requireExistingPaymentMethod</a>(): <a href="index.html">GooglePayConfig.Builder</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="514680979%2FFunctions%2F1946847589" anchor-label="requireExistingPaymentMethod" id="514680979%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="514680979%2FFunctions%2F1946847589" anchor-label="requireExistingPaymentMethod" id="514680979%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Defines that an existing payment method on the Google Pay is required for it to be available (undefined is false)</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1380945019%2FFunctions%2F1946847589" anchor-label="returnCustomerInfo" id="1380945019%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="return-customer-info.html">returnCustomerInfo</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1380945019%2FFunctions%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">fun <a href="return-customer-info.html">returnCustomerInfo</a>(parameters: <a href="../../-customer-info-parameters/index.html">CustomerInfoParameters</a>, callback: <a href="../../-google-pay-customer-info-callback/index.html">GooglePayCustomerInfoCallback</a>): <a href="index.html">GooglePayConfig.Builder</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1380945019%2FFunctions%2F1946847589" anchor-label="returnCustomerInfo" id="1380945019%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="1380945019%2FFunctions%2F1946847589" anchor-label="returnCustomerInfo" id="1380945019%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Returns the customer info from Google Pay customer account (undefined doesn't return)</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-2057560582%2FFunctions%2F1946847589" anchor-label="showCustomLabel" id="-2057560582%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="show-custom-label.html">showCustomLabel</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2057560582%2FFunctions%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">fun <a href="show-custom-label.html">showCustomLabel</a>(label: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>): <a href="index.html">GooglePayConfig.Builder</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-2057560582%2FFunctions%2F1946847589" anchor-label="showCustomLabel" id="-2057560582%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="-2057560582%2FFunctions%2F1946847589" anchor-label="showCustomLabel" id="-2057560582%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Use this option to show a custom label instead of the text &quot;Pay <merchantName>&quot;.</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1369232351%2FFunctions%2F1946847589" anchor-label="showInSavedPaymentMethods" id="1369232351%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="show-in-saved-payment-methods.html">showInSavedPaymentMethods</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1369232351%2FFunctions%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">fun <a href="show-in-saved-payment-methods.html">showInSavedPaymentMethods</a>(): <a href="index.html">GooglePayConfig.Builder</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1369232351%2FFunctions%2F1946847589" anchor-label="showInSavedPaymentMethods" id="1369232351%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="1369232351%2FFunctions%2F1946847589" anchor-label="showInSavedPaymentMethods" id="1369232351%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Shows Google Pay additionally on the saved payment method selection screen as an 'alias' (undefined is false)</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1736371776%2FFunctions%2F1946847589" anchor-label="showLargeButton" id="1736371776%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="show-large-button.html">showLargeButton</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1736371776%2FFunctions%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">fun <a href="show-large-button.html">showLargeButton</a>(): <a href="index.html">GooglePayConfig.Builder</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1736371776%2FFunctions%2F1946847589" anchor-label="showLargeButton" id="1736371776%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="1736371776%2FFunctions%2F1946847589" anchor-label="showLargeButton" id="1736371776%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Use this option to show Google Pay as a payment button instead of a listed payment method (undefined is false)</div></div>
-</div>
-                    </div>
-                  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="2066387750%2FConstructors%2F1946847589" anchor-label="Builder" id="2066387750%2FConstructors%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-builder.html"><span><span>Builder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2066387750%2FConstructors%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">supportedNetworks<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../-payment-method-type/index.html">PaymentMethodType</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">merchantName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1507519253%2FFunctions%2F1946847589" anchor-label="allowedAuthenticationMethods" id="1507519253%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="allowed-authentication-methods.html"><span>allowed</span><wbr></wbr><span>Authentication</span><wbr></wbr><span><span>Methods</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1507519253%2FFunctions%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="allowed-authentication-methods.html"><span class="token function">allowedAuthenticationMethods</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">authenticationMethods<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../-authentication-method-type/index.html">GooglePayConfig.AuthenticationMethodType</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">GooglePayConfig.Builder</a></div><div class="brief "><p class="paragraph">Defines the allowed authentication methods (if undefined the default list contains PAN_ONLY and CRYPTOGRAM_3DS)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1205079138%2FFunctions%2F1946847589" anchor-label="build" id="1205079138%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="build.html"><span><span>build</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1205079138%2FFunctions%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="build.html"><span class="token function">build</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../index.html">GooglePayConfig</a></div><div class="brief "><p class="paragraph">Builds a GooglePayConfig object</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1358760360%2FFunctions%2F1946847589" anchor-label="disableCreditCards" id="1358760360%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="disable-credit-cards.html"><span>disable</span><wbr></wbr><span>Credit</span><wbr></wbr><span><span>Cards</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1358760360%2FFunctions%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="disable-credit-cards.html"><span class="token function">disableCreditCards</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">GooglePayConfig.Builder</a></div><div class="brief "><p class="paragraph">Defines that credit cards are disabled (undefined is enabled)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-279472748%2FFunctions%2F1946847589" anchor-label="disablePrepaidCards" id="-279472748%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="disable-prepaid-cards.html"><span>disable</span><wbr></wbr><span>Prepaid</span><wbr></wbr><span><span>Cards</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-279472748%2FFunctions%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="disable-prepaid-cards.html"><span class="token function">disablePrepaidCards</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">GooglePayConfig.Builder</a></div><div class="brief "><p class="paragraph">Defines that prepaid cards are disabled (undefined is enabled)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="514680979%2FFunctions%2F1946847589" anchor-label="requireExistingPaymentMethod" id="514680979%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="require-existing-payment-method.html"><span>require</span><wbr></wbr><span>Existing</span><wbr></wbr><span>Payment</span><wbr></wbr><span><span>Method</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="514680979%2FFunctions%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="require-existing-payment-method.html"><span class="token function">requireExistingPaymentMethod</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">GooglePayConfig.Builder</a></div><div class="brief "><p class="paragraph">Defines that an existing payment method on the Google Pay is required for it to be available (undefined is false)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1380945019%2FFunctions%2F1946847589" anchor-label="returnCustomerInfo" id="1380945019%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="return-customer-info.html"><span>return</span><wbr></wbr><span>Customer</span><wbr></wbr><span><span>Info</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1380945019%2FFunctions%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="return-customer-info.html"><span class="token function">returnCustomerInfo</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">parameters<span class="token operator">: </span><a href="../../-customer-info-parameters/index.html">CustomerInfoParameters</a><span class="token punctuation">, </span></span><span class="parameter ">callback<span class="token operator">: </span><a href="../../-google-pay-customer-info-callback/index.html">GooglePayCustomerInfoCallback</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">GooglePayConfig.Builder</a></div><div class="brief "><p class="paragraph">Returns the customer info from Google Pay customer account (undefined doesn't return)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2057560582%2FFunctions%2F1946847589" anchor-label="showCustomLabel" id="-2057560582%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show-custom-label.html"><span>show</span><wbr></wbr><span>Custom</span><wbr></wbr><span><span>Label</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2057560582%2FFunctions%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="show-custom-label.html"><span class="token function">showCustomLabel</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">label<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">GooglePayConfig.Builder</a></div><div class="brief "><p class="paragraph">Use this option to show a custom label instead of the text &quot;Pay <merchantName>&quot;.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1369232351%2FFunctions%2F1946847589" anchor-label="showInSavedPaymentMethods" id="1369232351%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show-in-saved-payment-methods.html"><span>show</span><wbr></wbr><span>In</span><wbr></wbr><span>Saved</span><wbr></wbr><span>Payment</span><wbr></wbr><span><span>Methods</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1369232351%2FFunctions%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="show-in-saved-payment-methods.html"><span class="token function">showInSavedPaymentMethods</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">GooglePayConfig.Builder</a></div><div class="brief "><p class="paragraph">Shows Google Pay additionally on the saved payment method selection screen as an 'alias' (undefined is false)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1736371776%2FFunctions%2F1946847589" anchor-label="showLargeButton" id="1736371776%2FFunctions%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show-large-button.html"><span>show</span><wbr></wbr><span>Large</span><wbr></wbr><span><span>Button</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1736371776%2FFunctions%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="show-large-button.html"><span class="token function">showLargeButton</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">GooglePayConfig.Builder</a></div><div class="brief "><p class="paragraph">Use this option to show Google Pay as a payment button instead of a listed payment method (undefined is false)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
-

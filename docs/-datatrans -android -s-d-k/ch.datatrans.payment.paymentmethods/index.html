@@ -1,464 +1,478 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html class="no-js">
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>ch.datatrans.payment.paymentmethods</title>
-<link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../";</script><script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../styles/style.css" rel="Stylesheet"><link href="../../styles/logo-styles.css" rel="Stylesheet"><link href="../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../scripts/main.js" async="async"></script>  </head>
-  <body>
-    <div id="container">
-      <div id="leftColumn"><a href="../../index.html">
-          <div id="logo"></div>
-        </a>
-        <div id="paneSearch"></div>
-        <div id="sideMenu"></div>
-      </div>
-      <div id="main">
-        <div id="leftToggler"><span class="icon-toggler"></span></div>
-<script type="text/javascript" src="../../scripts/main.js"></script>        <div class="main-content" id="content" pageIds="Datatrans Android SDK::ch.datatrans.payment.paymentmethods////PointingToDeclaration//1946847589">
-          <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"><a href="../../index.html">Datatrans Android SDK</a>/<a href="index.html">ch.datatrans.payment.paymentmethods</a></div>
-            <div class="pull-right d-flex">
-              <div id="searchBar"></div>
+    <link href="../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../index.html">
+                            Datatrans Android SDK
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":lib:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageIds="Datatrans Android SDK::ch.datatrans.payment.paymentmethods////PointingToDeclaration//1946847589">
+  <div class="breadcrumbs"><a href="../../index.html">Datatrans Android SDK</a><span class="delimiter">/</span><span class="current">ch.datatrans.payment.paymentmethods</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-1394271988%2FClasslikes%2F1946847589" anchor-label="BillingAddressParameters" id="-1394271988%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-billing-address-parameters/index.html"><span>Billing</span><wbr></wbr><span>Address</span><wbr></wbr><span><span>Parameters</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1394271988%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-billing-address-parameters/index.html">BillingAddressParameters</a></div></div></div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="cover ">
-            <h1 class="cover"><span>Package ch.</span><wbr></wbr><span>datatrans.</span><wbr></wbr><span>payment.</span><wbr></wbr><span>paymentmethods</span></h1>
-          </div>
-          <div class="tabbedcontent">
-            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button></div>
-            <div class="tabs-section-body">
-              <h2 class="">Types</h2>
-              <div class="table" data-togglable="Types"><a data-name="-1394271988%2FClasslikes%2F1946847589" anchor-label="BillingAddressParameters" id="-1394271988%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-billing-address-parameters/index.html">BillingAddressParameters</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1394271988%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">class <a href="-billing-address-parameters/index.html">BillingAddressParameters</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
 <a data-name="1220273503%2FClasslikes%2F1946847589" anchor-label="Card" id="1220273503%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-card/index.html">Card</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1220273503%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">class <a href="-card/index.html">Card</a>(type: <a href="-payment-method-type/index.html">PaymentMethodType</a>, number: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, expiryDate: <a href="-card-expiry-date/index.html">CardExpiryDate</a>, cvv: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?, cardholder: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1220273503%2FClasslikes%2F1946847589" anchor-label="Card" id="1220273503%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="1220273503%2FClasslikes%2F1946847589" anchor-label="Card" id="1220273503%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Use this class to process raw card data for payments.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-card/index.html"><span><span>Card</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1220273503%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-card/index.html">Card</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>type<span class="token operator">: </span><a href="-payment-method-type/index.html">PaymentMethodType</a><span class="token punctuation">, </span></span><span class="parameter ">number<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>expiryDate<span class="token operator">: </span><a href="-card-expiry-date/index.html">CardExpiryDate</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>cvv<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>cardholder<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Use this class to process raw card data for payments. You should use this class if your app takes over the user interface for the card input fields.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="253067102%2FClasslikes%2F1946847589" anchor-label="CardExpiryDate" id="253067102%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-card-expiry-date/index.html">CardExpiryDate</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="253067102%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">class <a href="-card-expiry-date/index.html">CardExpiryDate</a>(month: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>, year: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>) : <a href="https://developer.android.com/reference/kotlin/java/io/Serializable.html">Serializable</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="253067102%2FClasslikes%2F1946847589" anchor-label="CardExpiryDate" id="253067102%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="253067102%2FClasslikes%2F1946847589" anchor-label="CardExpiryDate" id="253067102%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Class to be used to represent the card expiry date (month and year).</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-card-expiry-date/index.html"><span>Card</span><wbr></wbr><span>Expiry</span><wbr></wbr><span><span>Date</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="253067102%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-card-expiry-date/index.html">CardExpiryDate</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">month<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">year<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/java/io/Serializable.html">Serializable</a></div><div class="brief "><p class="paragraph">Class to be used to represent the card expiry date (month and year).</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="-802626987%2FClasslikes%2F1946847589" anchor-label="CardLabelType" id="-802626987%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-card-label-type/index.html">CardLabelType</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-802626987%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">enum <a href="-card-label-type/index.html">CardLabelType</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a>&lt;<a href="-card-label-type/index.html">CardLabelType</a>&gt; <span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-802626987%2FClasslikes%2F1946847589" anchor-label="CardLabelType" id="-802626987%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="-802626987%2FClasslikes%2F1946847589" anchor-label="CardLabelType" id="-802626987%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Use this to choose which label to display for the card option in the payment method selection.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-card-label-type/index.html"><span>Card</span><wbr></wbr><span>Label</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-802626987%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-card-label-type/index.html">CardLabelType</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><a href="-card-label-type/index.html">CardLabelType</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Use this to choose which label to display for the card option in the payment method selection.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="1665000185%2FClasslikes%2F1946847589" anchor-label="CustomerInfoParameters" id="1665000185%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-customer-info-parameters/index.html">CustomerInfoParameters</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1665000185%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">class <a href="-customer-info-parameters/index.html">CustomerInfoParameters</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-customer-info-parameters/index.html"><span>Customer</span><wbr></wbr><span>Info</span><wbr></wbr><span><span>Parameters</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1665000185%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-customer-info-parameters/index.html">CustomerInfoParameters</a></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="2025580724%2FClasslikes%2F1946847589" anchor-label="CvvOnlyCard" id="2025580724%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-cvv-only-card/index.html">CvvOnlyCard</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2025580724%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">data class <a href="-cvv-only-card/index.html">CvvOnlyCard</a>(maskedCardNumber: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, expiryDate: <a href="-card-expiry-date/index.html">CardExpiryDate</a>, type: <a href="-payment-method-type/index.html">PaymentMethodType</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="2025580724%2FClasslikes%2F1946847589" anchor-label="CvvOnlyCard" id="2025580724%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="2025580724%2FClasslikes%2F1946847589" anchor-label="CvvOnlyCard" id="2025580724%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>This class represents a previously tokenized card used in the CVV-only tokenization/verification flow for PCI Proxy.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cvv-only-card/index.html"><span>Cvv</span><wbr></wbr><span>Only</span><wbr></wbr><span><span>Card</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2025580724%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-cvv-only-card/index.html">CvvOnlyCard</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>maskedCardNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>expiryDate<span class="token operator">: </span><a href="-card-expiry-date/index.html">CardExpiryDate</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>type<span class="token operator">: </span><a href="-payment-method-type/index.html">PaymentMethodType</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This class represents a previously tokenized card used in the CVV-only tokenization/verification flow for PCI Proxy.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="-351570814%2FClasslikes%2F1946847589" anchor-label="GooglePayConfig" id="-351570814%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-google-pay-config/index.html">GooglePayConfig</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-351570814%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">class <a href="-google-pay-config/index.html">GooglePayConfig</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-351570814%2FClasslikes%2F1946847589" anchor-label="GooglePayConfig" id="-351570814%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="-351570814%2FClasslikes%2F1946847589" anchor-label="GooglePayConfig" id="-351570814%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Configuration object for Google Pay transactions</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-google-pay-config/index.html"><span>Google</span><wbr></wbr><span>Pay</span><wbr></wbr><span><span>Config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-351570814%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-google-pay-config/index.html">GooglePayConfig</a></div><div class="brief "><p class="paragraph">Configuration object for Google Pay transactions</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="798351128%2FClasslikes%2F1946847589" anchor-label="GooglePayCustomerInfo" id="798351128%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-google-pay-customer-info/index.html">GooglePayCustomerInfo</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="798351128%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">data class <a href="-google-pay-customer-info/index.html">GooglePayCustomerInfo</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-google-pay-customer-info/index.html"><span>Google</span><wbr></wbr><span>Pay</span><wbr></wbr><span>Customer</span><wbr></wbr><span><span>Info</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="798351128%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-google-pay-customer-info/index.html">GooglePayCustomerInfo</a></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="-1878021053%2FClasslikes%2F1946847589" anchor-label="GooglePayCustomerInfoAssuranceDetails" id="-1878021053%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-google-pay-customer-info-assurance-details/index.html">GooglePayCustomerInfoAssuranceDetails</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1878021053%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">data class <a href="-google-pay-customer-info-assurance-details/index.html">GooglePayCustomerInfoAssuranceDetails</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-google-pay-customer-info-assurance-details/index.html"><span>Google</span><wbr></wbr><span>Pay</span><wbr></wbr><span>Customer</span><wbr></wbr><span>Info</span><wbr></wbr><span>Assurance</span><wbr></wbr><span><span>Details</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1878021053%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-google-pay-customer-info-assurance-details/index.html">GooglePayCustomerInfoAssuranceDetails</a></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="863064031%2FClasslikes%2F1946847589" anchor-label="GooglePayCustomerInfoBillingAddress" id="863064031%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-google-pay-customer-info-billing-address/index.html">GooglePayCustomerInfoBillingAddress</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="863064031%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">data class <a href="-google-pay-customer-info-billing-address/index.html">GooglePayCustomerInfoBillingAddress</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-google-pay-customer-info-billing-address/index.html"><span>Google</span><wbr></wbr><span>Pay</span><wbr></wbr><span>Customer</span><wbr></wbr><span>Info</span><wbr></wbr><span>Billing</span><wbr></wbr><span><span>Address</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="863064031%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-google-pay-customer-info-billing-address/index.html">GooglePayCustomerInfoBillingAddress</a></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="504483667%2FClasslikes%2F1946847589" anchor-label="GooglePayCustomerInfoCallback" id="504483667%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-google-pay-customer-info-callback/index.html">GooglePayCustomerInfoCallback</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="504483667%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">interface <a href="-google-pay-customer-info-callback/index.html">GooglePayCustomerInfoCallback</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-google-pay-customer-info-callback/index.html"><span>Google</span><wbr></wbr><span>Pay</span><wbr></wbr><span>Customer</span><wbr></wbr><span>Info</span><wbr></wbr><span><span>Callback</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="504483667%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-google-pay-customer-info-callback/index.html">GooglePayCustomerInfoCallback</a></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="2068427226%2FClasslikes%2F1946847589" anchor-label="GooglePayCustomerInfoCardInfo" id="2068427226%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-google-pay-customer-info-card-info/index.html">GooglePayCustomerInfoCardInfo</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2068427226%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">data class <a href="-google-pay-customer-info-card-info/index.html">GooglePayCustomerInfoCardInfo</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-google-pay-customer-info-card-info/index.html"><span>Google</span><wbr></wbr><span>Pay</span><wbr></wbr><span>Customer</span><wbr></wbr><span>Info</span><wbr></wbr><span>Card</span><wbr></wbr><span><span>Info</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2068427226%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-google-pay-customer-info-card-info/index.html">GooglePayCustomerInfoCardInfo</a></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="1033221785%2FClasslikes%2F1946847589" anchor-label="GooglePayCustomerInfoPaymentMethodData" id="1033221785%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-google-pay-customer-info-payment-method-data/index.html">GooglePayCustomerInfoPaymentMethodData</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1033221785%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">data class <a href="-google-pay-customer-info-payment-method-data/index.html">GooglePayCustomerInfoPaymentMethodData</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-google-pay-customer-info-payment-method-data/index.html"><span>Google</span><wbr></wbr><span>Pay</span><wbr></wbr><span>Customer</span><wbr></wbr><span>Info</span><wbr></wbr><span>Payment</span><wbr></wbr><span>Method</span><wbr></wbr><span><span>Data</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1033221785%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-google-pay-customer-info-payment-method-data/index.html">GooglePayCustomerInfoPaymentMethodData</a></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="729779940%2FClasslikes%2F1946847589" anchor-label="GooglePayCustomerInfoShippingAddress" id="729779940%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-google-pay-customer-info-shipping-address/index.html">GooglePayCustomerInfoShippingAddress</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="729779940%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">data class <a href="-google-pay-customer-info-shipping-address/index.html">GooglePayCustomerInfoShippingAddress</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-google-pay-customer-info-shipping-address/index.html"><span>Google</span><wbr></wbr><span>Pay</span><wbr></wbr><span>Customer</span><wbr></wbr><span>Info</span><wbr></wbr><span>Shipping</span><wbr></wbr><span><span>Address</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="729779940%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-google-pay-customer-info-shipping-address/index.html">GooglePayCustomerInfoShippingAddress</a></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="1248468008%2FClasslikes%2F1946847589" anchor-label="KlarnaConfig" id="1248468008%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-klarna-config/index.html">KlarnaConfig</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1248468008%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">data class <a href="-klarna-config/index.html">KlarnaConfig</a>(customName: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1248468008%2FClasslikes%2F1946847589" anchor-label="KlarnaConfig" id="1248468008%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="1248468008%2FClasslikes%2F1946847589" anchor-label="KlarnaConfig" id="1248468008%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Configuration object for Klarna transactions.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-klarna-config/index.html"><span>Klarna</span><wbr></wbr><span><span>Config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1248468008%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-klarna-config/index.html">KlarnaConfig</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">customName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Configuration object for Klarna transactions.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="825964402%2FClasslikes%2F1946847589" anchor-label="PaymentMethodType" id="825964402%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-payment-method-type/index.html">PaymentMethodType</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="825964402%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">enum <a href="-payment-method-type/index.html">PaymentMethodType</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a>&lt;<a href="-payment-method-type/index.html">PaymentMethodType</a>&gt; <span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="825964402%2FClasslikes%2F1946847589" anchor-label="PaymentMethodType" id="825964402%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="825964402%2FClasslikes%2F1946847589" anchor-label="PaymentMethodType" id="825964402%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>The payment method used during the transaction.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-payment-method-type/index.html"><span>Payment</span><wbr></wbr><span>Method</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="825964402%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-payment-method-type/index.html">PaymentMethodType</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><a href="-payment-method-type/index.html">PaymentMethodType</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">The payment method used during the transaction.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="1675795519%2FClasslikes%2F1946847589" anchor-label="SamsungPayConfig" id="1675795519%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-samsung-pay-config/index.html">SamsungPayConfig</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1675795519%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">open class <a href="-samsung-pay-config/index.html">SamsungPayConfig</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1675795519%2FClasslikes%2F1946847589" anchor-label="SamsungPayConfig" id="1675795519%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="1675795519%2FClasslikes%2F1946847589" anchor-label="SamsungPayConfig" id="1675795519%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Class for transaction configurations for Samsung Pay payments.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-samsung-pay-config/index.html"><span>Samsung</span><wbr></wbr><span>Pay</span><wbr></wbr><span><span>Config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1675795519%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="-samsung-pay-config/index.html">SamsungPayConfig</a></div><div class="brief "><p class="paragraph">Class for transaction configurations for Samsung Pay payments.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="-252288027%2FClasslikes%2F1946847589" anchor-label="SavedBoncard" id="-252288027%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-saved-boncard/index.html">SavedBoncard</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-252288027%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">open class <a href="-saved-boncard/index.html">SavedBoncard</a>(alias: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, maskedCardNumber: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?, boncardType: <a href="../ch.datatrans.payment.paymentmethods.boncard/-boncard-type/index.html">BoncardType</a>) : <a href="-saved-payment-method/index.html">SavedPaymentMethod</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-252288027%2FClasslikes%2F1946847589" anchor-label="SavedBoncard" id="-252288027%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="-252288027%2FClasslikes%2F1946847589" anchor-label="SavedBoncard" id="-252288027%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>This class contains saved Boncard payment method details.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-saved-boncard/index.html"><span>Saved</span><wbr></wbr><span><span>Boncard</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-252288027%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="-saved-boncard/index.html">SavedBoncard</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">var </span>alias<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>maskedCardNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>boncardType<span class="token operator">: </span><a href="../ch.datatrans.payment.paymentmethods.boncard/-boncard-type/index.html">BoncardType</a></span></span><span class="token punctuation">)</span> : <a href="-saved-payment-method/index.html">SavedPaymentMethod</a></div><div class="brief "><p class="paragraph">This class contains saved Boncard payment method details.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="-1569935780%2FClasslikes%2F1946847589" anchor-label="SavedCard" id="-1569935780%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-saved-card/index.html">SavedCard</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1569935780%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">open class <a href="-saved-card/index.html">SavedCard</a>(type: <a href="-payment-method-type/index.html">PaymentMethodType</a>, alias: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, cardExpiryDate: <a href="-card-expiry-date/index.html">CardExpiryDate</a>?, maskedCardNumber: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?, cardholder: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?) : <a href="-saved-payment-method/index.html">SavedPaymentMethod</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-1569935780%2FClasslikes%2F1946847589" anchor-label="SavedCard" id="-1569935780%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="-1569935780%2FClasslikes%2F1946847589" anchor-label="SavedCard" id="-1569935780%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>This class contains saved credit or debit card payment method details.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-saved-card/index.html"><span>Saved</span><wbr></wbr><span><span>Card</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1569935780%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="-saved-card/index.html">SavedCard</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>type<span class="token operator">: </span><a href="-payment-method-type/index.html">PaymentMethodType</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>alias<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">cardExpiryDate<span class="token operator">: </span><a href="-card-expiry-date/index.html">CardExpiryDate</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">maskedCardNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">cardholder<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span> : <a href="-saved-payment-method/index.html">SavedPaymentMethod</a></div><div class="brief "><p class="paragraph">This class contains saved credit or debit card payment method details.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
+<a data-name="554946823%2FClasslikes%2F1946847589" anchor-label="SavedGooglePay" id="554946823%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-saved-google-pay/index.html"><span>Saved</span><wbr></wbr><span>Google</span><wbr></wbr><span><span>Pay</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="554946823%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-saved-google-pay/index.html">SavedGooglePay</a> : <a href="-saved-payment-method/index.html">SavedPaymentMethod</a></div><div class="brief "><p class="paragraph">This class contains saved Google Pay payment method details.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
 <a data-name="-875459921%2FClasslikes%2F1946847589" anchor-label="SavedPaymentMethod" id="-875459921%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-saved-payment-method/index.html">SavedPaymentMethod</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-875459921%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">open class <a href="-saved-payment-method/index.html">SavedPaymentMethod</a>(type: <a href="-payment-method-type/index.html">PaymentMethodType</a>, alias: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>) : <a href="https://developer.android.com/reference/kotlin/java/io/Serializable.html">Serializable</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-cloneable/index.html">Cloneable</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="-875459921%2FClasslikes%2F1946847589" anchor-label="SavedPaymentMethod" id="-875459921%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="-875459921%2FClasslikes%2F1946847589" anchor-label="SavedPaymentMethod" id="-875459921%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>This is the base class to save a payment method and use it to process recurring payments or fast checkouts.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-saved-payment-method/index.html"><span>Saved</span><wbr></wbr><span>Payment</span><wbr></wbr><span><span>Method</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-875459921%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="-saved-payment-method/index.html">SavedPaymentMethod</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>type<span class="token operator">: </span><a href="-payment-method-type/index.html">PaymentMethodType</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>alias<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/java/io/Serializable.html">Serializable</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-cloneable/index.html">Cloneable</a></div><div class="brief "><p class="paragraph">This is the base class to save a payment method and use it to process recurring payments or fast checkouts.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="1800048953%2FClasslikes%2F1946847589" anchor-label="SavedPayPal" id="1800048953%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-saved-pay-pal/index.html">SavedPayPal</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1800048953%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">class <a href="-saved-pay-pal/index.html">SavedPayPal</a>(alias: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, payPalEmail: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?) : <a href="-saved-payment-method/index.html">SavedPaymentMethod</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="1800048953%2FClasslikes%2F1946847589" anchor-label="SavedPayPal" id="1800048953%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="1800048953%2FClasslikes%2F1946847589" anchor-label="SavedPayPal" id="1800048953%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>This class contains saved PayPal payment method details.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-saved-pay-pal/index.html"><span>Saved</span><wbr></wbr><span>Pay</span><wbr></wbr><span><span>Pal</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1800048953%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-saved-pay-pal/index.html">SavedPayPal</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">var </span>alias<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>payPalEmail<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span> : <a href="-saved-payment-method/index.html">SavedPaymentMethod</a></div><div class="brief "><p class="paragraph">This class contains saved PayPal payment method details.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="902433804%2FClasslikes%2F1946847589" anchor-label="SavedPostFinanceCard" id="902433804%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-saved-post-finance-card/index.html">SavedPostFinanceCard</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="902433804%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">class <a href="-saved-post-finance-card/index.html">SavedPostFinanceCard</a>(alias: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, cardExpiryDate: <a href="-card-expiry-date/index.html">CardExpiryDate</a>?, maskedCardNumber: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?) : <a href="-saved-card/index.html">SavedCard</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="902433804%2FClasslikes%2F1946847589" anchor-label="SavedPostFinanceCard" id="902433804%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="902433804%2FClasslikes%2F1946847589" anchor-label="SavedPostFinanceCard" id="902433804%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>This class contains saved PostFinance card payment method details.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-saved-post-finance-card/index.html"><span>Saved</span><wbr></wbr><span>Post</span><wbr></wbr><span>Finance</span><wbr></wbr><span><span>Card</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="902433804%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-saved-post-finance-card/index.html">SavedPostFinanceCard</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">var </span>alias<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">cardExpiryDate<span class="token operator">: </span><a href="-card-expiry-date/index.html">CardExpiryDate</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">maskedCardNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span> : <a href="-saved-card/index.html">SavedCard</a></div><div class="brief "><p class="paragraph">This class contains saved PostFinance card payment method details.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="983285955%2FClasslikes%2F1946847589" anchor-label="SavedReka" id="983285955%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-saved-reka/index.html">SavedReka</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="983285955%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">class <a href="-saved-reka/index.html">SavedReka</a>(alias: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, cardExpiryDate: <a href="-card-expiry-date/index.html">CardExpiryDate</a>, maskedCardNumber: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?) : <a href="-saved-card/index.html">SavedCard</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="983285955%2FClasslikes%2F1946847589" anchor-label="SavedReka" id="983285955%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="983285955%2FClasslikes%2F1946847589" anchor-label="SavedReka" id="983285955%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>This class contains saved Reka card payment method details.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-saved-reka/index.html"><span>Saved</span><wbr></wbr><span><span>Reka</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="983285955%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-saved-reka/index.html">SavedReka</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">var </span>alias<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">cardExpiryDate<span class="token operator">: </span><a href="-card-expiry-date/index.html">CardExpiryDate</a><span class="token punctuation">, </span></span><span class="parameter ">maskedCardNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span> : <a href="-saved-card/index.html">SavedCard</a></div><div class="brief "><p class="paragraph">This class contains saved Reka card payment method details.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="51613993%2FClasslikes%2F1946847589" anchor-label="SavedSEPA" id="51613993%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-saved-s-e-p-a/index.html">SavedSEPA</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="51613993%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">class <a href="-saved-s-e-p-a/index.html">SavedSEPA</a>(alias: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>) : <a href="-saved-payment-method/index.html">SavedPaymentMethod</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="51613993%2FClasslikes%2F1946847589" anchor-label="SavedSEPA" id="51613993%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="brief "><a data-name="51613993%2FClasslikes%2F1946847589" anchor-label="SavedSEPA" id="51613993%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>This class contains saved SEPA (ELV) payment method details.</div></div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-saved-s-e-p-a/index.html"><span>Saved</span><wbr></wbr><span><span>SEPA</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="51613993%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-saved-s-e-p-a/index.html">SavedSEPA</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">alias<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span> : <a href="-saved-payment-method/index.html">SavedPaymentMethod</a></div><div class="brief "><p class="paragraph">This class contains saved SEPA (ELV) payment method details.</p></div></div></div>
                 </div>
+              </div>
+            </div>
+          </div>
 <a data-name="883225027%2FClasslikes%2F1946847589" anchor-label="ShippingAddressParameters" id="883225027%2FClasslikes%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-shipping-address-parameters/index.html">ShippingAddressParameters</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="883225027%2FClasslikes%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">class <a href="-shipping-address-parameters/index.html">ShippingAddressParameters</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-shipping-address-parameters/index.html"><span>Shipping</span><wbr></wbr><span>Address</span><wbr></wbr><span><span>Parameters</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="883225027%2FClasslikes%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-shipping-address-parameters/index.html">ShippingAddressParameters</a></div></div></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
       </div>
     </div>
-  </body>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
-

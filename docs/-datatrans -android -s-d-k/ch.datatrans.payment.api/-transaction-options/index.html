@@ -1,198 +1,273 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html class="no-js">
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>TransactionOptions</title>
-<link href="../../../../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script><script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script>  </head>
-  <body>
-    <div id="container">
-      <div id="leftColumn"><a href="../../../index.html">
-          <div id="logo"></div>
-        </a>
-        <div id="paneSearch"></div>
-        <div id="sideMenu"></div>
-      </div>
-      <div id="main">
-        <div id="leftToggler"><span class="icon-toggler"></span></div>
-<script type="text/javascript" src="../../../scripts/main.js"></script>        <div class="main-content" id="content" pageIds="Datatrans Android SDK::ch.datatrans.payment.api/TransactionOptions///PointingToDeclaration//1946847589">
-          <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"><a href="../../../index.html">Datatrans Android SDK</a>/<a href="../index.html">ch.datatrans.payment.api</a>/<a href="index.html">TransactionOptions</a></div>
-            <div class="pull-right d-flex">
-              <div id="searchBar"></div>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            Datatrans Android SDK
+                    </a>
             </div>
-          </div>
-          <div class="cover ">
-            <h1 class="cover"><span>Transaction</span><wbr></wbr><span>Options</span></h1>
-            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">class <a href="index.html">TransactionOptions</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">This class can be used to specify miscellaneous options related to the transaction.</p></div></div>
-          </div>
-          <div class="tabbedcontent">
-            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
-            <div class="tabs-section-body">
-              <h2 class="tabbedcontent">Constructors</h2>
-              <div class="table" data-togglable="Constructors"><a data-name="-1649501116%2FConstructors%2F1946847589" anchor-label="TransactionOptions" id="-1649501116%2FConstructors%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue TabbedContent">
-                    <div class=""><span class="inline-flex"><a href="-transaction-options.html">TransactionOptions</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1649501116%2FConstructors%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace">fun <a href="-transaction-options.html">TransactionOptions</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Properties</h2>
-              <div class="table" data-togglable="Properties"><a data-name="1101054955%2FProperties%2F1946847589" anchor-label="appCallbackScheme" id="1101054955%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="app-callback-scheme.html">appCallbackScheme</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1101054955%2FProperties%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><a data-name="1101054955%2FProperties%2F1946847589" anchor-label="appCallbackScheme" id="1101054955%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="symbol monospace">var <a href="app-callback-scheme.html">appCallbackScheme</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>? = null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="1101054955%2FProperties%2F1946847589" anchor-label="appCallbackScheme" id="1101054955%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Your unique callback scheme to be used by the external web process (for example PayPal) to return to the merchant app.</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="156158275%2FProperties%2F1946847589" anchor-label="boncardConfig" id="156158275%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="boncard-config.html">boncardConfig</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="156158275%2FProperties%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><a data-name="156158275%2FProperties%2F1946847589" anchor-label="boncardConfig" id="156158275%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="symbol monospace">var <a href="boncard-config.html">boncardConfig</a>: <a href="../../ch.datatrans.payment.paymentmethods.boncard/-boncard-config/index.html">BoncardConfig</a>? = null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="156158275%2FProperties%2F1946847589" anchor-label="boncardConfig" id="156158275%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Specify the <a href="../../ch.datatrans.payment.paymentmethods.boncard/-boncard-config/index.html">BoncardConfig</a> object here.</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="533340024%2FProperties%2F1946847589" anchor-label="cardLabelType" id="533340024%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="card-label-type.html">cardLabelType</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="533340024%2FProperties%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><a data-name="533340024%2FProperties%2F1946847589" anchor-label="cardLabelType" id="533340024%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="symbol monospace">var <a href="card-label-type.html">cardLabelType</a>: <a href="../../ch.datatrans.payment.paymentmethods/-card-label-type/index.html">CardLabelType</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="533340024%2FProperties%2F1946847589" anchor-label="cardLabelType" id="533340024%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Use this setting to choose which label to display for the card option in the payment method selection: &quot;Credit card&quot;, &quot;Debit card&quot;, or &quot;Credit or debit card&quot;.</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-1826547632%2FProperties%2F1946847589" anchor-label="customInitialLoader" id="-1826547632%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="custom-initial-loader.html">customInitialLoader</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1826547632%2FProperties%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><a data-name="-1826547632%2FProperties%2F1946847589" anchor-label="customInitialLoader" id="-1826547632%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="symbol monospace">var <a href="custom-initial-loader.html">customInitialLoader</a>: <a href="../-initial-loader/index.html">InitialLoader</a>? = null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-1826547632%2FProperties%2F1946847589" anchor-label="customInitialLoader" id="-1826547632%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Sometimes, apps display a loading animation before starting the SDK.</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="493823973%2FProperties%2F1946847589" anchor-label="googlePayConfig" id="493823973%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="google-pay-config.html">googlePayConfig</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="493823973%2FProperties%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><a data-name="493823973%2FProperties%2F1946847589" anchor-label="googlePayConfig" id="493823973%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="symbol monospace">var <a href="google-pay-config.html">googlePayConfig</a>: <a href="../../ch.datatrans.payment.paymentmethods/-google-pay-config/index.html">GooglePayConfig</a>? = null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="493823973%2FProperties%2F1946847589" anchor-label="googlePayConfig" id="493823973%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Specify the <a href="../../ch.datatrans.payment.paymentmethods/-google-pay-config/index.html">GooglePayConfig</a> object here.</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1751719568%2FProperties%2F1946847589" anchor-label="isTesting" id="1751719568%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="is-testing.html">isTesting</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1751719568%2FProperties%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><a data-name="1751719568%2FProperties%2F1946847589" anchor-label="isTesting" id="1751719568%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="symbol monospace">var <a href="is-testing.html">isTesting</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a> = false<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="1751719568%2FProperties%2F1946847589" anchor-label="isTesting" id="1751719568%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Use this setting to switch from production to sandbox.</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-1255429315%2FProperties%2F1946847589" anchor-label="klarnaConfig" id="-1255429315%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="klarna-config.html">klarnaConfig</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1255429315%2FProperties%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><a data-name="-1255429315%2FProperties%2F1946847589" anchor-label="klarnaConfig" id="-1255429315%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="symbol monospace">var <a href="klarna-config.html">klarnaConfig</a>: <a href="../../ch.datatrans.payment.paymentmethods/-klarna-config/index.html">KlarnaConfig</a>? = null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-1255429315%2FProperties%2F1946847589" anchor-label="klarnaConfig" id="-1255429315%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Specify the <a href="../../ch.datatrans.payment.paymentmethods/-klarna-config/index.html">KlarnaConfig</a> object here for customizing the Klarna payment option.</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-534364460%2FProperties%2F1946847589" anchor-label="samsungPayConfig" id="-534364460%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="samsung-pay-config.html">samsungPayConfig</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-534364460%2FProperties%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><a data-name="-534364460%2FProperties%2F1946847589" anchor-label="samsungPayConfig" id="-534364460%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="symbol monospace">var <a href="samsung-pay-config.html">samsungPayConfig</a>: <a href="../../ch.datatrans.payment.paymentmethods/-samsung-pay-config/index.html">SamsungPayConfig</a>? = null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-534364460%2FProperties%2F1946847589" anchor-label="samsungPayConfig" id="-534364460%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Specify the <a href="../../ch.datatrans.payment.paymentmethods/-samsung-pay-config/index.html">SamsungPayConfig</a> object here.</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="1779301815%2FProperties%2F1946847589" anchor-label="savedCardDCCShowMode" id="1779301815%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="saved-card-d-c-c-show-mode.html">savedCardDCCShowMode</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1779301815%2FProperties%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><a data-name="1779301815%2FProperties%2F1946847589" anchor-label="savedCardDCCShowMode" id="1779301815%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="symbol monospace">var <a href="saved-card-d-c-c-show-mode.html">savedCardDCCShowMode</a>: <a href="../-d-c-c-show-mode/index.html">DCCShowMode</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="1779301815%2FProperties%2F1946847589" anchor-label="savedCardDCCShowMode" id="1779301815%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Specify this option to control when the DCC (Dynamic Currency Conversion) screen is presented for payments with saved cards (alias/tokenized payments).</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="741953850%2FProperties%2F1946847589" anchor-label="suppressCriticalErrorDialog" id="741953850%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="suppress-critical-error-dialog.html">suppressCriticalErrorDialog</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="741953850%2FProperties%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><a data-name="741953850%2FProperties%2F1946847589" anchor-label="suppressCriticalErrorDialog" id="741953850%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="symbol monospace">var <a href="suppress-critical-error-dialog.html">suppressCriticalErrorDialog</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a> = false<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="741953850%2FProperties%2F1946847589" anchor-label="suppressCriticalErrorDialog" id="741953850%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Use this setting to display or hide critical errors.</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="-456719907%2FProperties%2F1946847589" anchor-label="useCertificatePinning" id="-456719907%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="use-certificate-pinning.html">useCertificatePinning</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-456719907%2FProperties%2F1946847589"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><a data-name="-456719907%2FProperties%2F1946847589" anchor-label="useCertificatePinning" id="-456719907%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a><div class="symbol monospace">var <a href="use-certificate-pinning.html">useCertificatePinning</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a> = false<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-456719907%2FProperties%2F1946847589" anchor-label="useCertificatePinning" id="-456719907%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>Whether secure connections to Datatrans servers require a certificate chain signed with a specific CA private key.</div></div></div>
-                      </div>
-                    </div>
-                  </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":lib:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="Datatrans Android SDK::ch.datatrans.payment.api/TransactionOptions///PointingToDeclaration//1946847589">
+  <div class="breadcrumbs"><a href="../../../index.html">Datatrans Android SDK</a><span class="delimiter">/</span><a href="../index.html">ch.datatrans.payment.api</a><span class="delimiter">/</span><span class="current">TransactionOptions</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Transaction</span><wbr></wbr><span><span>Options</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">TransactionOptions</a></div><p class="paragraph">This class can be used to specify miscellaneous options related to the transaction.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-1649501116%2FConstructors%2F1946847589" anchor-label="TransactionOptions" id="-1649501116%2FConstructors%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-transaction-options.html"><span>Transaction</span><wbr></wbr><span><span>Options</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1649501116%2FConstructors%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1101054955%2FProperties%2F1946847589" anchor-label="appCallbackScheme" id="1101054955%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="app-callback-scheme.html"><span>app</span><wbr></wbr><span>Callback</span><wbr></wbr><span><span>Scheme</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1101054955%2FProperties%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="app-callback-scheme.html">appCallbackScheme</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Your unique callback scheme to be used by the external web process (for example PayPal) to return to the merchant app.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="156158275%2FProperties%2F1946847589" anchor-label="boncardConfig" id="156158275%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="boncard-config.html"><span>boncard</span><wbr></wbr><span><span>Config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="156158275%2FProperties%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="boncard-config.html">boncardConfig</a><span class="token operator">: </span><a href="../../ch.datatrans.payment.paymentmethods.boncard/-boncard-config/index.html">BoncardConfig</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Specify the <a href="../../ch.datatrans.payment.paymentmethods.boncard/-boncard-config/index.html">BoncardConfig</a> object here. This can be used to configure how the <a href="../../ch.datatrans.payment.paymentmethods/-payment-method-type/-b-o-n-c-a-r-d/index.html">ch.datatrans.payment.paymentmethods.PaymentMethodType.BONCARD</a> payment method type should be displayed in the SDK. If not specified, a default value will be used.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="533340024%2FProperties%2F1946847589" anchor-label="cardLabelType" id="533340024%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="card-label-type.html"><span>card</span><wbr></wbr><span>Label</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="533340024%2FProperties%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="card-label-type.html">cardLabelType</a><span class="token operator">: </span><a href="../../ch.datatrans.payment.paymentmethods/-card-label-type/index.html">CardLabelType</a></div><div class="brief "><p class="paragraph">Use this setting to choose which label to display for the card option in the payment method selection: &quot;Credit card&quot;, &quot;Debit card&quot;, or &quot;Credit or debit card&quot;. The latter is used by default.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1826547632%2FProperties%2F1946847589" anchor-label="customInitialLoader" id="-1826547632%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="custom-initial-loader.html"><span>custom</span><wbr></wbr><span>Initial</span><wbr></wbr><span><span>Loader</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1826547632%2FProperties%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="custom-initial-loader.html">customInitialLoader</a><span class="token operator">: </span><a href="../-initial-loader/index.html">InitialLoader</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Sometimes, apps display a loading animation before starting the SDK. You can set the <a href="custom-initial-loader.html">customInitialLoader</a> option if you want to keep showing this animation instead of the SDK’s loader during initial SDK network requests. IMPORTANT: Your loader must be visible before starting the SDK. Be aware that the SDK blocks user input. Your loading screen can not have a cancel button or give the impression that users can still interact with the UI.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="493823973%2FProperties%2F1946847589" anchor-label="googlePayConfig" id="493823973%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="google-pay-config.html"><span>google</span><wbr></wbr><span>Pay</span><wbr></wbr><span><span>Config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="493823973%2FProperties%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="google-pay-config.html">googlePayConfig</a><span class="token operator">: </span><a href="../../ch.datatrans.payment.paymentmethods/-google-pay-config/index.html">GooglePayConfig</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Specify the <a href="../../ch.datatrans.payment.paymentmethods/-google-pay-config/index.html">GooglePayConfig</a> object here. This is mandatory for Google Pay transactions.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1751719568%2FProperties%2F1946847589" anchor-label="isTesting" id="1751719568%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="is-testing.html"><span>is</span><wbr></wbr><span><span>Testing</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1751719568%2FProperties%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="is-testing.html">isTesting</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">Use this setting to switch from production to sandbox. If not specified, the SDK will call the Datatrans production environment.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1255429315%2FProperties%2F1946847589" anchor-label="klarnaConfig" id="-1255429315%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="klarna-config.html"><span>klarna</span><wbr></wbr><span><span>Config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1255429315%2FProperties%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="klarna-config.html">klarnaConfig</a><span class="token operator">: </span><a href="../../ch.datatrans.payment.paymentmethods/-klarna-config/index.html">KlarnaConfig</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Specify the <a href="../../ch.datatrans.payment.paymentmethods/-klarna-config/index.html">KlarnaConfig</a> object here for customizing the Klarna payment option. If not specified, default values will be used.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-534364460%2FProperties%2F1946847589" anchor-label="samsungPayConfig" id="-534364460%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="samsung-pay-config.html"><span>samsung</span><wbr></wbr><span>Pay</span><wbr></wbr><span><span>Config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-534364460%2FProperties%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="samsung-pay-config.html">samsungPayConfig</a><span class="token operator">: </span><a href="../../ch.datatrans.payment.paymentmethods/-samsung-pay-config/index.html">SamsungPayConfig</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Specify the <a href="../../ch.datatrans.payment.paymentmethods/-samsung-pay-config/index.html">SamsungPayConfig</a> object here. This is mandatory for Samsung Pay transactions.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1779301815%2FProperties%2F1946847589" anchor-label="savedCardDCCShowMode" id="1779301815%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="saved-card-d-c-c-show-mode.html"><span>saved</span><wbr></wbr><span>Card</span><wbr></wbr><span>DCCShow</span><wbr></wbr><span><span>Mode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1779301815%2FProperties%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="saved-card-d-c-c-show-mode.html">savedCardDCCShowMode</a><span class="token operator">: </span><a href="../-d-c-c-show-mode/index.html">DCCShowMode</a></div><div class="brief "><p class="paragraph">Specify this option to control when the DCC (Dynamic Currency Conversion) screen is presented for payments with saved cards (alias/tokenized payments). The default is <a href="../-d-c-c-show-mode/-a-l-w-a-y-s/index.html">DCCShowMode.ALWAYS</a>, meaning DCC is always shown when available. See <a href="../-d-c-c-show-mode/index.html">DCCShowMode</a> for additional information.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="741953850%2FProperties%2F1946847589" anchor-label="suppressCriticalErrorDialog" id="741953850%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="suppress-critical-error-dialog.html"><span>suppress</span><wbr></wbr><span>Critical</span><wbr></wbr><span>Error</span><wbr></wbr><span><span>Dialog</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="741953850%2FProperties%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="suppress-critical-error-dialog.html">suppressCriticalErrorDialog</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">Use this setting to display or hide critical errors.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-456719907%2FProperties%2F1946847589" anchor-label="useCertificatePinning" id="-456719907%2FProperties%2F1946847589" data-filterable-set=":lib:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":lib:dokkaHtml/release" data-filterable-set=":lib:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="use-certificate-pinning.html"><span>use</span><wbr></wbr><span>Certificate</span><wbr></wbr><span><span>Pinning</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-456719907%2FProperties%2F1946847589"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":lib:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="use-certificate-pinning.html">useCertificatePinning</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">Whether secure connections to Datatrans servers require a certificate chain signed with a specific CA private key. The device's trust settings are explicitly ignored, i.e. custom installed/white-listed certificates and/or CAs will not work.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
-
