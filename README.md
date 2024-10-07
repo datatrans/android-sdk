@@ -21,5 +21,8 @@ Accept payments on your Android apps: Our mobile SDKs support your entire paymen
 ## **Integration**
 Get started with our [integration guide](https://docs.datatrans.ch/docs/mobile-sdk-2).
 
+## **API Reference**
+Check our [API documentation](https://datatrans.github.io/android-sdk/).
+
 ## **Requirements**
 The Datatrans Android SDK is compatible with apps targeting Android API 21 or above.
