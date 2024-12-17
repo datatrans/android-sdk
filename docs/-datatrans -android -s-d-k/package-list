@@ -50,6 +50,7 @@ $dokka.location:ch.datatrans.payment.api/InitialLoader///PointingToDeclaration/
 $dokka.location:ch.datatrans.payment.api/InitialLoader/dismiss/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-initial-loader/dismiss.html
 $dokka.location:ch.datatrans.payment.api/Transaction.Companion///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction/-companion/index.html
 $dokka.location:ch.datatrans.payment.api/Transaction.Companion/subscribe/#androidx.lifecycle.LifecycleOwner#ch.datatrans.payment.api.TransactionListener/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction/-companion/subscribe.html
+$dokka.location:ch.datatrans.payment.api/Transaction.Companion/unsubscribe/#androidx.lifecycle.LifecycleOwner/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction/-companion/unsubscribe.html
 $dokka.location:ch.datatrans.payment.api/Transaction///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction/index.html
 $dokka.location:ch.datatrans.payment.api/Transaction/Transaction/#kotlin.String#ch.datatrans.payment.paymentmethods.Card/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction/-transaction.html
 $dokka.location:ch.datatrans.payment.api/Transaction/Transaction/#kotlin.String#ch.datatrans.payment.paymentmethods.SavedPaymentMethod/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction/-transaction.html
