@@ -16,7 +16,7 @@ Accept payments on your Android apps: Our mobile SDKs support your entire paymen
 
 **Tokens and Fast Checkouts**: Save your customers' payment information for later use and offer fast checkouts in your app. Delegate the token selection to the library.
 
-**Theme Support**: Style various items according to your corporate identity if needed. We also support the iOS dark theme.
+**Theme Support**: Style various items according to your corporate identity if needed. We also support the Android dark theme.
 
 ## **Integration**
 Get started with our [integration guide](https://docs.datatrans.ch/docs/mobile-sdk-2).
