@@ -6,7 +6,7 @@
 Accept payments on your Android apps: Our mobile SDKs support your entire payment and registration process and simplify the integration of any payment method in your mobile apps. Completely outsource your payment processes to us from inside your native apps. We also take care of redirecting your users to 3D Secure processes and enable smooth app-switches to other payment applications including Twint and PostFinance.
 
 ## **Features**
-**Easy Integration**: Integrate many of our payment methods easily to your iOS projects. Smart, modern and secure UI components to master online payments in your apps.
+**Easy Integration**: Integrate many of our payment methods easily to your Android projects. Smart, modern and secure UI components to master online payments in your apps.
 
 **Card Scanner**: Let your customers scan their card information easily with our prebuilt card scanner. No time wasted with entering card information.
 
