@@ -1,5 +1,5 @@
 # **Datatrans Android SDK**
-![Version](https://img.shields.io/github/v/release/datatrans/android-sdk?label=Version&color=%23ff0096)
+![Version](https://img.shields.io/github/v/release/datatrans/android-sdk?label=Version&color=%23ff0096&filter=3.*)
 [![License](https://img.shields.io/badge/License-Datatrans-lightgrey)](https://raw.githubusercontent.com/datatrans/android-sdk/master/LICENSE)
 [![Platform](https://img.shields.io/badge/platform-android-0BAF73)](https://github.com/datatrans/android-sdk)
 
