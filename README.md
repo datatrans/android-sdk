@@ -19,10 +19,10 @@ Accept payments on your Android apps: Our mobile SDKs support your entire paymen
 **Theme Support**: Style various items according to your corporate identity if needed. We also support the Android dark theme.
 
 ## **Integration**
-Get started with our [integration guide](https://docs.datatrans.ch/docs/mobile-sdk-2).
+Get started with our [integration guide](https://docs.datatrans.ch/docs/mobile-sdk-3x).
 
 ## **API Reference**
-Check our [API documentation](https://datatrans.github.io/android-sdk/).
+Check our [API documentation](https://datatrans.github.io/android-sdk/3.x).
 
 ## **Requirements**
 The Datatrans Android SDK is compatible with apps targeting Android API 21 or above.
