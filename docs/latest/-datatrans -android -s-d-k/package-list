@@ -11,6 +11,13 @@ $dokka.location:ch.datatrans.api.payment.exception/TransactionException///Pointi
 $dokka.location:ch.datatrans.api.payment.exception/TransactionException/TransactionException/#kotlin.String?#kotlin.String#ch.datatrans.api.PaymentMethodType?#kotlin.String?/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.exception/-transaction-exception/-transaction-exception.html
 $dokka.location:ch.datatrans.api.payment.exception/TransactionException/paymentMethodType/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.exception/-transaction-exception/payment-method-type.html
 $dokka.location:ch.datatrans.api.payment.exception/TransactionException/transactionId/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.exception/-transaction-exception/transaction-id.html
+$dokka.location:ch.datatrans.api.payment.location////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.location/index.html
+$dokka.location:ch.datatrans.api.payment.location/GeoLocation///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.location/-geo-location/index.html
+$dokka.location:ch.datatrans.api.payment.location/GeoLocation/GeoLocation/#android.location.Location/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.location/-geo-location/-geo-location.html
+$dokka.location:ch.datatrans.api.payment.location/GeoLocation/GeoLocation/#kotlin.Double#kotlin.Double#kotlin.Float?/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.location/-geo-location/-geo-location.html
+$dokka.location:ch.datatrans.api.payment.location/GeoLocation/accuracyMeters/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.location/-geo-location/accuracy-meters.html
+$dokka.location:ch.datatrans.api.payment.location/GeoLocation/latitude/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.location/-geo-location/latitude.html
+$dokka.location:ch.datatrans.api.payment.location/GeoLocation/longitude/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.location/-geo-location/longitude.html
 $dokka.location:ch.datatrans.api.payment.relay////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.relay/index.html
 $dokka.location:ch.datatrans.api.payment.relay/ExternalProcessRelayActivity///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.relay/-external-process-relay-activity/index.html
 $dokka.location:ch.datatrans.api.payment.relay/ExternalProcessRelayActivity/ExternalProcessRelayActivity/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.relay/-external-process-relay-activity/-external-process-relay-activity.html
@@ -43,6 +50,12 @@ $dokka.location:ch.datatrans.api.payment.saved/SavedCardInfo/issuer/#/PointingTo
 $dokka.location:ch.datatrans.api.payment.saved/SavedCardInfo/toString/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-card-info/to-string.html
 $dokka.location:ch.datatrans.api.payment.saved/SavedCardInfo/type/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-card-info/type.html
 $dokka.location:ch.datatrans.api.payment.saved/SavedCardInfo/usage/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-card-info/usage.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedDimoco///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-dimoco/index.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedDimoco/SavedDimoco/#kotlin.String/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-dimoco/-saved-dimoco.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedDimoco/clone/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-dimoco/clone.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedDimoco/equals/#kotlin.Any?/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-dimoco/equals.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedDimoco/hashCode/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-dimoco/hash-code.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedDimoco/toString/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-dimoco/to-string.html
 $dokka.location:ch.datatrans.api.payment.saved/SavedGooglePay///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-google-pay/index.html
 $dokka.location:ch.datatrans.api.payment.saved/SavedGooglePay/cardInfo/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-google-pay/card-info.html
 $dokka.location:ch.datatrans.api.payment.saved/SavedGooglePay/clone/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-google-pay/clone.html
@@ -81,6 +94,15 @@ $dokka.location:ch.datatrans.api.payment.saved/SavedPostFinancePay/getDisplayTit
 $dokka.location:ch.datatrans.api.payment.saved/SavedPostFinancePay/hashCode/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-post-finance-pay/hash-code.html
 $dokka.location:ch.datatrans.api.payment.saved/SavedPostFinancePay/maskedAccountNumber/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-post-finance-pay/masked-account-number.html
 $dokka.location:ch.datatrans.api.payment.saved/SavedPostFinancePay/toString/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-post-finance-pay/to-string.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedSEPA///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-s-e-p-a/index.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedSEPA/SavedSEPA/#kotlin.String#kotlin.String?/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-s-e-p-a/-saved-s-e-p-a.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedSEPA/clone/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-s-e-p-a/clone.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedSEPA/equals/#kotlin.Any?/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-s-e-p-a/equals.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedSEPA/getAccessibilityTitle/#android.content.Context/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-s-e-p-a/get-accessibility-title.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedSEPA/getDisplayTitle/#android.content.Context/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-s-e-p-a/get-display-title.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedSEPA/hashCode/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-s-e-p-a/hash-code.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedSEPA/maskedAccountNumber/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-s-e-p-a/masked-account-number.html
+$dokka.location:ch.datatrans.api.payment.saved/SavedSEPA/toString/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment.saved/-saved-s-e-p-a/to-string.html
 $dokka.location:ch.datatrans.api.payment////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment/index.html
 $dokka.location:ch.datatrans.api.payment/DCCShowMode.ALWAYS///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api.payment/-d-c-c-show-mode/-a-l-w-a-y-s/index.html
 $dokka.location:ch.datatrans.api.payment/DCCShowMode.NEVER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api.payment/-d-c-c-show-mode/-n-e-v-e-r/index.html
@@ -108,6 +130,7 @@ $dokka.location:ch.datatrans.api.payment/TransactionOptions/appCallbackUrl/#/Poi
 $dokka.location:ch.datatrans.api.payment/TransactionOptions/autoAuthorize/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment/-transaction-options/auto-authorize.html
 $dokka.location:ch.datatrans.api.payment/TransactionOptions/cardLabelType/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment/-transaction-options/card-label-type.html
 $dokka.location:ch.datatrans.api.payment/TransactionOptions/customInitialLoader/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment/-transaction-options/custom-initial-loader.html
+$dokka.location:ch.datatrans.api.payment/TransactionOptions/geoLocation/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment/-transaction-options/geo-location.html
 $dokka.location:ch.datatrans.api.payment/TransactionOptions/googlePayConfig/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment/-transaction-options/google-pay-config.html
 $dokka.location:ch.datatrans.api.payment/TransactionOptions/savedCardDCCShowMode/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment/-transaction-options/saved-card-d-c-c-show-mode.html
 $dokka.location:ch.datatrans.api.payment/TransactionOptions/suppressCriticalErrorDialog/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.payment/-transaction-options/suppress-critical-error-dialog.html
@@ -171,20 +194,27 @@ $dokka.location:ch.datatrans.api.tokenization/PCIPTokenizationResult.PCIPTokeniz
 $dokka.location:ch.datatrans.api.tokenization/PCIPTokenizationResult.PCIPTokenizationSuccess/tokenizationId/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.tokenization/-p-c-i-p-tokenization-result/-p-c-i-p-tokenization-success/tokenization-id.html
 $dokka.location:ch.datatrans.api.tokenization/PCIPTokenizationResult///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api.tokenization/-p-c-i-p-tokenization-result/index.html
 $dokka.location:ch.datatrans.api////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api/index.html
+$dokka.location:ch.datatrans.api/PaymentMethodType.ALIPAY///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-a-l-i-p-a-y/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.AMERICAN_EXPRESS///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-a-m-e-r-i-c-a-n_-e-x-p-r-e-s-s/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.Companion///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-companion/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.Companion/fromIdentifier/#kotlin.String/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-companion/from-identifier.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.DANKORT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-d-a-n-k-o-r-t/index.html
+$dokka.location:ch.datatrans.api/PaymentMethodType.DIMOCO///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-d-i-m-o-c-o/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.DINERS_CLUB///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-d-i-n-e-r-s_-c-l-u-b/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.DISCOVER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-d-i-s-c-o-v-e-r/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.ELO_CARD///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-e-l-o_-c-a-r-d/index.html
+$dokka.location:ch.datatrans.api/PaymentMethodType.EPS///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-e-p-s/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.GOOGLE_PAY///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-g-o-o-g-l-e_-p-a-y/index.html
+$dokka.location:ch.datatrans.api/PaymentMethodType.HALF_FARE_PLUS///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-h-a-l-f_-f-a-r-e_-p-l-u-s/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.HIPERCARD///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-h-i-p-e-r-c-a-r-d/index.html
+$dokka.location:ch.datatrans.api/PaymentMethodType.IDEAL///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-i-d-e-a-l/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.JCB///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-j-c-b/index.html
+$dokka.location:ch.datatrans.api/PaymentMethodType.KLARNA///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-k-l-a-r-n-a/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.MAESTRO///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-m-a-e-s-t-r-o/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.MASTER_CARD///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-m-a-s-t-e-r_-c-a-r-d/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.PAY_PAL///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-p-a-y_-p-a-l/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.POST_FINANCE_PAY///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-p-o-s-t_-f-i-n-a-n-c-e_-p-a-y/index.html
+$dokka.location:ch.datatrans.api/PaymentMethodType.SEPA///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-s-e-p-a/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.SUPERCARD///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-s-u-p-e-r-c-a-r-d/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.TWINT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-t-w-i-n-t/index.html
 $dokka.location:ch.datatrans.api/PaymentMethodType.UATP///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-datatrans -android -s-d-k/ch.datatrans.api/-payment-method-type/-u-a-t-p/index.html
@@ -330,6 +360,7 @@ $dokka.location:ch.datatrans.paymentmethod.googlepay/ShippingAddressParameters//
 ch.datatrans.api
 ch.datatrans.api.payment
 ch.datatrans.api.payment.exception
+ch.datatrans.api.payment.location
 ch.datatrans.api.payment.relay
 ch.datatrans.api.payment.saved
 ch.datatrans.api.tokenization
