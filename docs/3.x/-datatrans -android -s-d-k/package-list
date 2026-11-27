@@ -68,6 +68,7 @@ $dokka.location:ch.datatrans.payment.api/TransactionOptions/appCallbackScheme/#/
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/boncardConfig/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/boncard-config.html
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/cardLabelType/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/card-label-type.html
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/customInitialLoader/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/custom-initial-loader.html
+$dokka.location:ch.datatrans.payment.api/TransactionOptions/geoLocation/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/geo-location.html
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/googlePayConfig/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/google-pay-config.html
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/isTesting/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/is-testing.html
 $dokka.location:ch.datatrans.payment.api/TransactionOptions/klarnaConfig/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.api/-transaction-options/klarna-config.html
@@ -114,6 +115,13 @@ $dokka.location:ch.datatrans.payment.exception/TransactionException/logString/#/
 $dokka.location:ch.datatrans.payment.exception/TransactionException/mobileToken/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/mobile-token.html
 $dokka.location:ch.datatrans.payment.exception/TransactionException/paymentMethodType/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/payment-method-type.html
 $dokka.location:ch.datatrans.payment.exception/TransactionException/transactionId/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.exception/-transaction-exception/transaction-id.html
+$dokka.location:ch.datatrans.payment.location////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.location/index.html
+$dokka.location:ch.datatrans.payment.location/GeoLocation///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.location/-geo-location/index.html
+$dokka.location:ch.datatrans.payment.location/GeoLocation/GeoLocation/#android.location.Location/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.location/-geo-location/-geo-location.html
+$dokka.location:ch.datatrans.payment.location/GeoLocation/GeoLocation/#kotlin.Double#kotlin.Double#kotlin.Float?/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.location/-geo-location/-geo-location.html
+$dokka.location:ch.datatrans.payment.location/GeoLocation/accuracyMeters/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.location/-geo-location/accuracy-meters.html
+$dokka.location:ch.datatrans.payment.location/GeoLocation/latitude/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.location/-geo-location/latitude.html
+$dokka.location:ch.datatrans.payment.location/GeoLocation/longitude/#/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.location/-geo-location/longitude.html
 $dokka.location:ch.datatrans.payment.paymentmethods.boncard////PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods.boncard/index.html
 $dokka.location:ch.datatrans.payment.paymentmethods.boncard/BoncardConfig///PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods.boncard/-boncard-config/index.html
 $dokka.location:ch.datatrans.payment.paymentmethods.boncard/BoncardConfig/BoncardConfig/#kotlin.collections.List[ch.datatrans.payment.paymentmethods.boncard.BoncardType]/PointingToDeclaration/-datatrans -android -s-d-k/ch.datatrans.payment.paymentmethods.boncard/-boncard-config/-boncard-config.html
@@ -381,6 +389,7 @@ ch.datatrans.payment.api
 ch.datatrans.payment.api.tokenization
 ch.datatrans.payment.bottomsheet
 ch.datatrans.payment.exception
+ch.datatrans.payment.location
 ch.datatrans.payment.paymentmethods
 ch.datatrans.payment.paymentmethods.boncard
 ch.datatrans.payment.paymentmethods.paypal
